@@ -211,6 +211,14 @@ cd .devcontainer && docker-compose down
 # Stop the development server and Celery worker
 # Press Ctrl+C in their respective terminal windows
 ```
+## To commit the changes run the following:
+
+```git commit --no-verify -m "your commit message"```
+
+## To push the changes run the following:
+
+```git push```
+
 
 ## Alternative: Using Windows Subsystem for Linux (WSL)
 
