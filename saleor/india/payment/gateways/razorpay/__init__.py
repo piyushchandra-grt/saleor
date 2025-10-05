@@ -5,9 +5,9 @@ from decimal import Decimal
 import razorpay
 import razorpay.errors
 
-from ....core.telemetry import saleor_attributes, tracer
-from ... import TransactionKind
-from ...interface import GatewayConfig, GatewayResponse, PaymentData
+from saleor.core.telemetry import saleor_attributes, tracer
+from saleor.payment import TransactionKind
+from saleor.payment.interface import GatewayConfig, GatewayResponse, PaymentData
 from . import errors
 from .utils import get_amount_for_razorpay, get_error_response
 

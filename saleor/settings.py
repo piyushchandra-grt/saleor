@@ -317,6 +317,7 @@ INSTALLED_APPS = [
     "saleor.app",
     "saleor.thumbnail",
     "saleor.schedulers",
+    "saleor.india",
     # External apps
     "django_measurement",
     "mptt",
@@ -857,7 +858,7 @@ BUILTIN_PLUGINS = [
     "saleor.payment.gateways.dummy_credit_card.plugin.DeprecatedDummyCreditCardGatewayPlugin",
     "saleor.payment.gateways.stripe.plugin.StripeGatewayPlugin",
     "saleor.payment.gateways.braintree.plugin.DeprecatedBraintreeGatewayPlugin",
-    "saleor.payment.gateways.razorpay.plugin.DeprecatedRazorpayGatewayPlugin",
+    "saleor.india.payment.gateways.razorpay.plugin.DeprecatedRazorpayGatewayPlugin",
     "saleor.payment.gateways.adyen.plugin.AdyenGatewayPlugin",
     "saleor.payment.gateways.authorize_net.plugin.AuthorizeNetGatewayPlugin",
     "saleor.payment.gateways.np_atobarai.plugin.NPAtobaraiGatewayPlugin",
@@ -865,6 +866,7 @@ BUILTIN_PLUGINS = [
     "saleor.plugins.admin_email.plugin.AdminEmailPlugin",
     "saleor.plugins.sendgrid.plugin.DeprecatedSendgridEmailPlugin",
     "saleor.plugins.openid_connect.plugin.OpenIDConnectPlugin",
+    "saleor.india.plugins.gst_plugin.GstPlugin",
 ]
 
 # Plugin discovery

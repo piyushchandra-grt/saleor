@@ -1,0 +1,10 @@
+{
+    "IN": {
+        "fmt": "%N%n%O%n%A%n%C %Z%n%S",
+        "require": "ACSZ",
+        "upper": "CS",
+        "zip": "\\d{6}",
+        "zipex": "110034,110001",
+        "state_name_type": "state"
+    }
+}

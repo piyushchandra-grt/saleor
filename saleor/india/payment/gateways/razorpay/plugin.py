@@ -2,7 +2,7 @@ from typing import TYPE_CHECKING
 
 from saleor.plugins.base_plugin import BasePlugin, ConfigurationTypeField
 
-from ..utils import get_supported_currencies
+from saleor.payment.gateways.utils import get_supported_currencies
 from . import GatewayConfig, capture, process_payment, refund
 
 GATEWAY_NAME = "Razorpay"
